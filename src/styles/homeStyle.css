@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+:root{
+    --bg-color: rgb(254, 242, 242);
+    --color-white: rgb(255, 255, 255);
+    --color-green-bg: rgb(40, 111, 109);
+    --color-circle-green: rgb(200, 217, 217); 
+    --color-orange-secondary: rgb(242, 100, 64);
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 14px;
+}
+h1, h2, h3, p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+img{
+    display: block;
+}
+.container__home{
+    display: flex;
+    background-color: var(--bg-color);
+}
+.container__picture{
+    width: 183px;
+}
+.title-name>h1{
+    font-size: 3rem;
+    font-weight: 600;
+    position: relative;
+    left: 2.5rem;
+    top: 2rem;
+   
+}
+
+.container-home__circles{
+   margin-top: 3.5rem;
+}
+.circle-orange__linkedin, .circle-orange__instagram, .circle-orange__github{
+    background-color: var(--color-orange-secondary);
+    width: 3.5rem;
+    height: 3.5rem;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    margin-bottom: .5rem;
+    margin-left: 2rem; 
+}
+.icon-github{
+    width: 2rem;
+}
+.cv__downland{
+    width: 3.5rem;
+    height: 3.5rem;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    margin-bottom: .5rem;
+    margin-left: 2rem; 
+}
+.picture__me{
+    width: 15rem;
+    position: relative;
+    left: -6.5em;
+    top: -5rem;
+}
+.circle-green__picture{
+    position: relative;
+    background-color: var(--color-green-bg);
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    top: 15.5em;
+    left: -2rem;   
+}
+.btn__down{
+    position: relative;
+    left: -15rem;
+    top: 35rem;
+    height: 2rem;
+    background-color: transparent;
+    border: 0;
+}
+.img-btn{
+    width: 2rem;
+}
+
+
+
+
+
+
+
+
+

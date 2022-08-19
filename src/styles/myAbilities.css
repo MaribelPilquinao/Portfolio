@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+:root{
+    --bg-color: rgb(254, 242, 242);
+    --color-white: rgb(255, 255, 255);
+    --color-green-bg: rgb(40, 111, 109);
+    --color-circle-green: rgb(200, 217, 217); 
+    --color-orange-secondary: rgb(242, 100, 64);
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 14px;
+}
+h1, h2, h3, p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+img{
+    display: block;
+}
+
+/* SCROLL */
+.row::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }
+  
+.row::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+  }
+  
+.row::-webkit-scrollbar-thumb {
+    background-color: transparent;    /* color of the scroll thumb */
+    /* border-radius: 10px;       roundness of the scroll thumb */
+    /* border: 1px solid rgb(235, 225, 206);  creates padding around scroll thumb */
+  }
+/* FIN SCROLL */
+
+
+
+
+
+/* HABILIDADES */
+.container__abilities{
+    display: grid;
+    grid-template-columns: 25% 65%;
+}
+
+.circulo__green-abilities{
+    background-color: var(--color-green-bg);
+    width: 17rem;
+    height: 17rem;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin-left: -8.5rem;
+    top:-5%
+}
+.circulo-orange{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: var(--color-orange-secondary);
+    position: relative;
+    left: 20%;
+    top: -35%;
+}
+
+.span-mis{
+    color: #ffffff;
+    position: absolute;
+    left: -4.5rem;
+}
+.title__abilities{
+   
+    color: var(--color-green-bg);
+    display: inline-flex;
+    justify-items: right;
+    position:relative;
+    font-weight: 700;
+    line-height: 4rem;
+    left: .5rem;
+    margin-bottom: 1rem;
+}
+.title__ability{
+    font-size: 1rem;
+    font-weight: 900;
+    padding-left: 1rem;
+    display: flex;
+    
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+}
+.cards{
+    flex-wrap: nowrap;
+    display: flex;
+    overflow: auto;
+    gap: 1rem;
+}
+.col-4{
+    width: 33.33%;
+}
+.card{
+    min-width: 250px;
+    text-align: justify;
+}
+.abitities__cards{
+    margin-left: 5rem;
+}
+.ability-1, .ability-2, .ability-3, .ability-4{
+    background-color: var(--bg-color) ;
+    padding: 1rem;
+}
+.ability-4{
+    margin-right: 0;
+}
+.icon__abilities{
+    width: 1rem;
+    display: flex;
+    margin-right: .3rem;
+}

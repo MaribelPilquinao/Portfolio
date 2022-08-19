@@ -1,0 +1,8 @@
+export {default as Header} from './Header'
+export {default as Home} from './Home'
+export {default as AcercaDeMi} from './AcercaDeMi'
+export {default as Contacto} from './Contacto'
+export {default as Experiencia} from './Experiencia'
+export {default as MisHabilidades} from './MisHabilidades'
+export {default as Portafolio} from './Portafolio'
+export {default as Footer} from './Footer'

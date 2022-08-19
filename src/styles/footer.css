@@ -1,0 +1,9 @@
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 1rem;
+    color: #f26440;
+    font-weight: 700; 
+    margin: auto;
+}

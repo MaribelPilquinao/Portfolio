@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+:root{
+    --bg-color: rgb(254, 242, 242);
+    --color-white: rgb(255, 255, 255);
+    --color-green-bg: rgb(40, 111, 109);
+    --color-circle-green: rgb(200, 217, 217); 
+    --color-orange-secondary: rgb(242, 100, 64);
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 14px;
+}
+h1, h2, h3, p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+img{
+    display: block;
+}
+
+.container__portfolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: .5rem;
+    gap: 1rem;
+    background-color: var(--color-circle-green);
+}
+
+.title__portfolio{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: var(--color-green-bg);
+}
+.section-title{
+    background-color: var(--color-circle-green);
+    height: 2rem;
+    padding: .5rem;
+    padding-bottom: 3rem;
+    margin-top: 2rem;
+}
