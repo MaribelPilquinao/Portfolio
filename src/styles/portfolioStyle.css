@@ -140,3 +140,14 @@
         padding: 1rem 3rem 1.5rem 3rem;
     }
 }
+@media only screen and (min-width: 1500px){
+    .container-card{
+        width: 45rem;
+    }
+    .capa > h3 {
+        margin-top: 3.5rem;
+     }
+     .capa >a{
+        font-size: 1.2rem;
+     }
+}

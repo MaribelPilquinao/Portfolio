@@ -174,3 +174,8 @@
         margin-left: -4rem;
     }
 }
+@media only screen and (min-width: 1500px){
+    .title__abilities{
+        left: -15.5rem;
+    }
+}

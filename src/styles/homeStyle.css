@@ -207,3 +207,27 @@ img {
         left: 5rem;
     }
 }
+
+
+@media only screen and (min-width: 1500px){
+    .picture__me {
+        left: 5em;
+    }
+    .circle-green__picture {
+        top: 12.5em;
+        left: 13rem;
+    }
+    .circle-orange__linkedin,
+    .circle-orange__instagram,
+    .circle-orange__github,
+    .cv__downland {
+        margin-left: 17rem;
+    }
+    .title-name > p{
+       
+        left: 10rem;
+    }
+    .title-name >h1{
+        left: 10rem;
+    }
+}
