@@ -1,35 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
-body{
-    font-family: 'Inter', sans-serif;
-}
-
-:root{
-    --color-green-bg: rgb(40, 111, 109);
-}
-*, *::before, *::after{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-html{
-    font-size: 14px;
-}
-h1, h2, h3, p{
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.info__aboutMe{
+.info__aboutMe {
     text-align: justify;
     margin: 2rem;
     padding: .5rem;
 }
-.title__aboutMe{
+
+.title__aboutMe {
     color: var(--color-green-bg);
     font-weight: 700;
     line-height: 4rem;
 }
-.parragraph__aboutMe{
+
+.parragraph__aboutMe {
     font-size: 1.2rem;
     color: rgb(87, 85, 85);
 }
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 412px) {}
+
+
+@media only screen and (min-width: 512px) {}
+
+
+@media only screen and (min-width: 768px) {}
+
+
+@media only screen and (min-width: 992px) {
+    .title__aboutMe{
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    .info__aboutMe{
+        margin: 4rem;
+        padding: 1rem;
+    }
+    .parragraph__aboutMe{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {}

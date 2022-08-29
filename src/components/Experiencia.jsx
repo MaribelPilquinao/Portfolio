@@ -7,10 +7,12 @@ const Experiencia = () => {
         <article>
             <section className='container__experience'>
                 <div className="title__experience">
-                    <h2 className="">Experiencia</h2>
+                    <h2 className="" id='experience'>Experiencia</h2>
                 </div>
                 <div className="info__experience">
-                    <img className='img__experience' src={logoAcademlo} alt="" />
+                    <div className="container-img__experience">
+                        <img className='img__experience' src={logoAcademlo} alt="" />
+                    </div>
                     <div className="text__experience">
                         <h4 className="name__experience">Academlo</h4>
                         <p className="description__experience">Desarrollo web</p>

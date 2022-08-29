@@ -1,103 +1,209 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
-body{
+
+body {
     font-family: 'Inter', sans-serif;
 }
 
-:root{
+:root {
     --bg-color: rgb(254, 242, 242);
     --color-white: rgb(255, 255, 255);
     --color-green-bg: rgb(40, 111, 109);
-    --color-circle-green: rgb(200, 217, 217); 
+    --color-circle-green: rgb(200, 217, 217);
     --color-orange-secondary: rgb(242, 100, 64);
 }
-*, *::before, *::after{
+
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-html{
+
+html {
     font-size: 14px;
 }
-h1, h2, h3, p{
+
+h1,
+h2,
+h3,
+p {
     margin-top: 0;
     margin-bottom: 0;
 }
-img{
+
+img {
     display: block;
 }
-.container__home{
+
+.container__home {
     display: flex;
     background-color: var(--bg-color);
+    height: 43rem;
 }
-.container__picture{
-    width: 183px;
+
+.container__picture {
+    width: 158px;
 }
-.title-name>h1{
+
+.title-name > h1 {
     font-size: 3rem;
     font-weight: 600;
     position: relative;
     left: 2.5rem;
     top: 2rem;
-   
+}
+.title-name> p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: relative;
+    left: 3rem;
+    top: 3rem;
+    
 }
 
-.container-home__circles{
-   margin-top: 3.5rem;
+.container-home__circles {
+    margin-top: 10.5rem;
 }
-.circle-orange__linkedin, .circle-orange__instagram, .circle-orange__github{
+
+.circle-orange__linkedin,
+.circle-orange__instagram,
+.circle-orange__github {
     background-color: var(--color-orange-secondary);
     width: 3.5rem;
     height: 3.5rem;
     display: grid;
     place-content: center;
     border-radius: 50%;
-    margin-bottom: .5rem;
-    margin-left: 2rem; 
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
 }
-.icon-github{
+
+.icon-github {
     width: 2rem;
 }
-.cv__downland{
+
+.cv__downland {
     width: 3.5rem;
     height: 3.5rem;
     display: grid;
     place-content: center;
     border-radius: 50%;
-    margin-bottom: .5rem;
-    margin-left: 2rem; 
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
 }
-.picture__me{
+
+.picture__me {
     width: 15rem;
     position: relative;
-    left: -6.5em;
-    top: -5rem;
+    /* left: -1.5rem; */
+    top: -3.3rem;
 }
-.circle-green__picture{
+
+.circle-green__picture {
     position: relative;
     background-color: var(--color-green-bg);
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     border-radius: 50%;
-    top: 15.5em;
-    left: -2rem;   
-}
-.btn__down{
-    position: relative;
-    left: -15rem;
-    top: 35rem;
-    height: 2rem;
-    background-color: transparent;
-    border: 0;
-}
-.img-btn{
-    width: 2rem;
+    top: 22.5em;
+    left: -9rem;
 }
 
 
 
+/* MEDIA QUERY */
 
+@media only screen and (max-width: 412px) {
+    .picture__me {
+        width: 17rem;
+        left: -8.5em;
+    }
+}
 
+@media only screen and (min-width: 512px) {
+    .container__home{
+        height: 40rem;
+    }
+    .container-home__circles {
+        margin-top: 13.5rem;
+    }
+    .circle-orange__linkedin,
+    .circle-orange__instagram,
+    .circle-orange__github,
+    .cv__downland {
+        margin-left: 4rem;
+        
+    }
+    .circle-green__picture {
+       
+        top: 17.5em;
+        left: -10rem;
+    }
+    .picture__me{
+        left: -15rem;
+    }
+   
+}
 
+@media only screen and (min-width: 768px) {
+    .title-name > h1 {
+        left: 4.5rem;
+        top: 6rem;
+    }
+    .title-name > p{
+        top: 7rem;
+        left: 5rem;
+        font-size: 1.7rem;
+    }
+    
+    .picture__me {
+        left: 0em;
+    }
+    .circle-green__picture {
+        top: 17.5em;
+        left: 5rem;
+    }
+}
 
+@media only screen and (min-width: 992px) {
+    .container__home{
+        height: 40rem;
+    }
+    .title-name > h1 {
+        font-size: 4rem;
+    }
+    
+    .picture__me {
+        left: -3em;
+        top: -17.1rem;
+            width: 20rem;
+    }
+    .circle-green__picture {
+        top: 12.5em;
+        left: 3rem;
+        width: 26rem;
+        height: 26rem;
+    }
+    
+}
 
-
+@media only screen and (min-width: 1200px) {
+    .picture__me {
+        left: 0em;
+    }
+    .circle-green__picture {
+        top: 12.5em;
+        left: 8rem;
+    }
+    .circle-orange__linkedin,
+    .circle-orange__instagram,
+    .circle-orange__github,
+    .cv__downland {
+        margin-left: 12rem;
+    }
+    .title-name > p{
+        top: 7rem;
+        left: 5rem;
+    }
+}

@@ -8,18 +8,18 @@ const Contacto = () => {
         <article className="container-contacto">
                 <div className="circle__green-contact"></div>
             <div className="contact">
-                <h2 id="contacto">Contacto</h2>
+                <h2 id="contact">Contacto</h2>
             </div>
             <section className="container__info-contact">
                 <div className="info__contact">
-                    <div className="circle__small-1"><img src={phone3} alt="" /></div>
+                    <div className="circle__small-1"><img src={phone3} alt="icon phone" /></div>
                     <div className="info-contacto">
                         <h3>Número celular</h3>
-                        <p>+51 976119602</p>
+                        <p>+51 952193831</p>
                     </div>
                 </div>
                 <div className="info__contact">
-                    <div className="circle__small-2"><img src={mail3} alt="" /></div>
+                    <div className="circle__small-2"><img src={mail3} alt="icon mail" /></div>
                     <div className="info__contact">
                         <h3>Email</h3>
                         <p>maribel.pilquinaopm@gmail.com</p>

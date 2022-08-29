@@ -9,11 +9,11 @@ const Header = () => {
                 <Navbar.Toggle style={{fontFamily: 'Inter'}} aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav style={{fontFamily: 'Inter'}} className="me-auto">
-                        <Nav.Link  href="">Acerca de mí</Nav.Link>
-                        <Nav.Link href="">Mis habilidades</Nav.Link>
-                        <Nav.Link href="">Experiencia</Nav.Link>
-                        <Nav.Link href="">Portafolio</Nav.Link>
-                        <Nav.Link href="">Contacto</Nav.Link>
+                        <Nav.Link  href="#aboutMe">Acerca de mí</Nav.Link>
+                        <Nav.Link href="#myAbilities">Mis habilidades</Nav.Link>
+                        <Nav.Link href="#experience">Experiencia</Nav.Link>
+                        <Nav.Link href="#portfolio">Portafolio</Nav.Link>
+                        <Nav.Link href="#contact">Contacto</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

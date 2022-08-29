@@ -14,14 +14,14 @@ const MisHabilidades = () => {
             </section>
             <section className="info__abilities">
                 <div>
-                    <h2 id="mis__habilidades" className="title__abilities"><span className="span-mis">Mis</span>habilidades</h2>
+                    <h2 id="myAbilities" className="title__abilities"><span className="span-mis">Mis</span>habilidades</h2>
                 </div>
                 <article className="abitities__cards">
                     <div className="row cards">
                         <div className="col-4 card">
                             <div className="ability-1">
                                 <h2 className="title__ability"> <span><img className='icon__abilities' src={html} alt="" /></span> HTML</h2>
-                                <p className="parrafo-hab">Maquetar un sitio usando HTML.</p>
+                                <p className="parrafo-hab">Maquetar un sitio usando HTML en el proyecto.</p>
                             </div>
                         </div>
                         <div className="col-4 card">
@@ -39,7 +39,7 @@ const MisHabilidades = () => {
                         <div className="col-4 card">
                             <div className="ability-4">
                                 <h2 className="title__ability"><span><img className='icon__abilities' src={react} alt="" /></span> React Js</h2>
-                                <p className="parrafo-hab">Librería open source de JavaScript.</p>
+                                <p className="parrafo-hab">Librería open source de JavaScript. </p>
                             </div>
                         </div>
                     </div>
